@@ -19,7 +19,7 @@ if [[ -n "$2" ]]; then
   DURATION=$2
 fi
 
-echo "Running python_cpu_stress.py with $WORKERS workers for $DURATION seconds."
+echo "Running cpu_load.py with $WORKERS workers for $DURATION seconds."
 
 # Adjust path if necessary.
-python3 python_cpu_stress.py --workers "$WORKERS" --duration "$DURATION"
+python cpu_load.py --workers "$WORKERS" --duration "$DURATION"
