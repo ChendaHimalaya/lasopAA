@@ -15,7 +15,7 @@ END_TIME=$(( $(date +%s) + DURATION ))
 echo "Running CPU stress for $DURATION seconds..."
 
 while [ $(date +%s) -lt $END_TIME ]; do
-  echo "scale=$PRECISION; sqrt(2)" | bc >/dev/null
+  echo "scale=$PRECISION; sqrt(2)"
 done
 
 echo "Done"
