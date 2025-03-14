@@ -5,7 +5,7 @@
 
 # Default values (you can override them via arguments)
 WORKERS=2
-DURATION=5000
+DURATION=50000
 
 echo "Running cpu_load.py with $WORKERS workers for $DURATION seconds."
 
