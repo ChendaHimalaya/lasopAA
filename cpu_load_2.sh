@@ -5,7 +5,7 @@
 
 # Default values (you can override them via arguments)
 WORKERS=2
-DURATION=0
+DURATION=5000
 
 # If you want to pass custom arguments, you could parse them here.
 # Example usage:
