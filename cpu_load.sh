@@ -8,7 +8,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-DURATION=$50000
+DURATION=$1
 PRECISION=300000
 END_TIME=$(( $(date +%s) + DURATION ))
 
