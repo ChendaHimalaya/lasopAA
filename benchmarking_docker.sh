@@ -1,2 +1,2 @@
-!pip install udocker
-!udocker --allow-root run jfusterm/stress --cpu 100
+pip install udocker
+udocker --allow-root run jfusterm/stress --cpu 100
